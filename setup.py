@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="pytoniq-core",
+    name="pytoniq-core-premium",
     version="0.1.45",
     author="Maksim Kurbatov",
     author_email="cyrbatoff@gmail.com",
@@ -19,7 +19,7 @@ setuptools.setup(
         "Programming Language :: Python :: 3.11",
         "Topic :: Software Development :: Libraries",
     ],
-    url="https://github.com/yungwine/pytoniq",
+    url="https://github.com/yongen/pytoniq-core-premium",
     python_requires='>=3.9',
     py_modules=["pytoniq_core"],
     install_requires=[
